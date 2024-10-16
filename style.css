@@ -1,296 +1,44 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-#contact{
-    padding: 5% 25%;
+    font-family: 'Spartan',sans-serif;
 }
 
-header{
-    text-decoration: none;
-    pointer-events: none;
-}
-p{
-    font-family: 'Courier Prime', monospace;
-
-}
-h5{
-    font-family: 'Courier Prime', monospace;
-    font-weight: bold;
-}
-h4{
-    font-family: 'Courier Prime', monospace;
-    font-weight: normal;
-    
-}
-h1{
-    color: red;
-    font-family: 'Courier Prime', monospace;
-}
-.sizing{
-    padding: 5% 0   ;
-}
-.datetime{
-    font-family: 'Courier Prime', monospace;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-}
-.datetime:hover{
-    text-decoration: none;
-}
-.btn{
-    font-family: 'Courier Prime', monospace;
-
-}
-.copyright{
-    text-align: center;
-    margin-top: 100px;
-    font-family: 'Courier Prime', monospace;
-
-}
-.mailto{
-    text-decoration: none;
-    color: white;
-}
-.mailto:hover{
-    text-decoration: none;
-    color: white;
-
-}
-.names{
-    color: red;
-    text-decoration: none;
-}
-.names:hover{
-    color: red;
-    text-decoration: none;
-}
-.logo{
-    margin-top: 20px;
-    display: block;
-    height: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-}
-.nav-item{
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.navbar-nav{
-    margin-top: 60px;
-}
-.bg-home{
-    text-decoration: none;
-    color: black;
-    font-family: 'Courier Prime', monospace;
-}   
-.bg-home:hover{
-    color: white;
-    background: red;
-}
-/* .nav-link{
-    text-decoration: none;
-    font-family: 'Courier Prime', monospace;
-    color: black;
-}
-.nav-link:hover{
-    color: white;
-    background: red;
-} */
-
-
-/*About section*/
-.about{
-    padding: 5% 15%;
-    text-align: justify;
-    text-align-last:center ;
-}
-.set-btn{
-    padding: 5% 15%;
-}
-.back-about{
-    text-decoration: none;
-    color: white;
-    background: black;
-}
-.icon{
-    padding-top: 50px;
-    width: 5%;
-    opacity: 0.5;
-    cursor: pointer;
-}
-.icon:hover{
-    opacity: 1;
-}
-.footer{
-    padding: 0% 15%;
-    padding-top: 5%;
-}
-.by{
-    color: red;
-    cursor: pointer;
-    margin-right: 300px;
-    text-decoration: none;
-}
-.by:hover{
-    color: red;
-    text-decoration: none;
-}
-.nav-footer{
-    text-decoration: none;
-    list-style: none;
-}
-.footer-item{
-    float: left;    
-}
-.footer-items{
-    float: left;    
-}
-.footer-link{
-    margin-left: 20px;
-    text-decoration: none;
-    font-family: 'Courier Prime', monospace;
-    color: black;
-
-}
-.footer-link:hover{
-    color: red;
-    text-decoration: none;
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
 }
 
-/*Shop section*/
-.galery{
-    padding: 3% 15%;
-}
-.img-thumbnail{
-    height: 100px;
-    margin: 10px 10px;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
-}
-.img-thumbnail:hover{
-    border: solid red;
-}
-.back{
-    color: #fff;
-    background: black;
-    cursor: pointer;
-    margin-left: 30px;
-    font-family: 'Courier Prime', monospace;
-
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
 }
 
-/*Store section*/
-
-.store{
-    padding: 2% 15%;
-}
-.figure-img{
-    height: 150px;
-    width: 300px;
-}
-.figure-caption{
-    font-family: 'Courier Prime', monospace;
-}
-.caption{
-    text-decoration: none;
-    font-family: 'Courier Prime', monospace;
-    color: black;
-}
-.email:hover{
-    text-decoration: none;
-    color: red;
+h4 {
+    font-size: 20px;
+    color: #222;
 }
 
-/*cart section*/
-.cart{
-    padding: 0 15%;
-    margin-top: 30px;
-}
-.size-container{
-    padding: 10px 0;
-    margin-bottom: 10px;
-}
-.title-size{
-    color: black;
-}
-.sizes{
-    padding: 8px 0;
-    display: flex;
-    align-items: center;
-    color: red;
+h6 {
+    font-weight: 700;
+    font-size: 12x;
 }
 
-.size{
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #fff;
-    border: solid red 1px;
-    margin: 0 10px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .3s;
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
 }
 
-.size.active{
-    background-color: red;
-    color: #fff;
-    transition: .5s;
+.section-p1 {
+    padding: 40px 80px;
 }
 
-/*Contact section*/
-.contact{
-    text-align: left;
-    padding: 2% 15%;
-}
-.contact, .btn, p{
-    margin-left: 20px;
-}
-.form-row{
-    margin: 10px;
-}
-.back-button{
-    text-decoration: none;
-    background: black;
-    color: white;
-    margin-left: 100px;
-}
-
-.cart-img{
-    height: 50px;
-    float: left;
-    border: solid 0.5px black;
-    opacity: .6;
-}
-.cart-img:hover{
-    opacity: 1;
-}
-.img-cart{
-    height: 300px;
-    width: 450px;
-    padding-bottom: 5%;
-}
-@media only screen and (max-width: 800px) {
-   #contact{
-       padding: 2% 5%;
-   }
-   .galery img{
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-   }
-  }
-    color: white;
-   text-align: center;
-   padding-top: 38px;
+.section-m1 {
+    margin: 40px 0;
 }
