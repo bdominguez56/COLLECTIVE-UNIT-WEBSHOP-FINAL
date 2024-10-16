@@ -1,147 +1,295 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/*Back ground Color*/
-body{
-    background-color: rgb(248, 236, 212);
+#contact{
+    padding: 5% 25%;
 }
-/*NavBar*/
-nav{
-    display: flex;
-    background-color: #888;
-    width:100%;
-    height: 70px;
-    position: relative;
-    
-}
-/*Logo Nav*/
-nav img{
-    width:70px;
-    height: 70px;
-    margin-left: 30px;
-}
-/*List , li,img -> padding from top and left*/
-nav li{
-    list-style: none;
-    display: flex;
-    padding-left: 24px;
-    margin-top: 21px;
-}
-/* To Position Login and Register in right*/
-nav li .Cont{
-    padding-right:635px ;
-}
-/*Link Of Style*/
-nav li a{
-    text-decoration: none;
-    color: rgba(255,255,255,0.767);
-    text-shadow: 2px 2px 6px rgb(231,65,93);
-    font-size: 23px;
-}
-/*Login and Register in the same style*/
-nav li .LogReg{
-    color: rgb(227, 102, 252);
-    text-shadow:1px 1px 2px white;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-style: italic;
-}
-/*Cover of this page*/
+
 header{
-    background-image:url(../Images/header.jpg);
-    height: 400px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    
+    text-decoration: none;
+    pointer-events: none;
 }
-/*Header text of the cover*/
-header h1{
-    padding-left: 25px;
-    padding-top: 70px;
-    font-size: 50px;
-    color: #888;
-    text-shadow: 4px 2px 2px black;
-}
-nav a:hover{
-    text-decoration: underline;
-    color: yellow;
-    text-shadow:2px 2px 6px yellow;
-}
-/*Buttons of this cover page*/
-header button{
-    margin-top: 85px;
-    margin-left: 25px;
-    padding:12px 30px;
-    background-color: rgb(238,125,223);
-    color: yellow;
-    text-shadow: 2px 2px 4px black;
-    border: 1px solid whitesmoke ;
-    border-radius: 10px 0px 10px;
-    font-size: 15px;
-    cursor: pointer;
-}
-header button:hover{
-    background-color: yellow;
-    color: rgb(123,25,118);
-}
-header button:focus{
-    outline: none;
-}
-/*Statement Of Prodacts before the table*/
-h2{
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    font-size: 45px;
-    word-spacing: 16px;
-    letter-spacing: 3px;
-    color: #888;
-    text-shadow: 4px 2px 2px black;
+p{
+    font-family: 'Courier Prime', monospace;
 
 }
-/*Table of the products*/
-table{
-    border-collapse: collapse;
-    width: 950px;
-    height: 200px;
-    text-align: center;
-    color: rgb(116, 114, 114);
-    border: 2px solid black;
-    margin:auto;
-    
-
-}
-/*Make Border*/
-table tr,td,th{
-    border: 2px solid black;
-    padding: 15px;
-    
-}
-table th{
-    font-size: 25px;
-    font-weight: bolder;
-    padding: 10px;
-}
-table td{
-    font-size: 20px;
+h5{
+    font-family: 'Courier Prime', monospace;
     font-weight: bold;
 }
-/*Color and Anothor Color in Rows*/
-tr:nth-child(even){
-    background-color: #888;
+h4{
+    font-family: 'Courier Prime', monospace;
+    font-weight: normal;
+    
+}
+h1{
+    color: red;
+    font-family: 'Courier Prime', monospace;
+}
+.sizing{
+    padding: 5% 0   ;
+}
+.datetime{
+    font-family: 'Courier Prime', monospace;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.datetime:hover{
+    text-decoration: none;
+}
+.btn{
+    font-family: 'Courier Prime', monospace;
+
+}
+.copyright{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Courier Prime', monospace;
+
+}
+.mailto{
+    text-decoration: none;
+    color: white;
+}
+.mailto:hover{
+    text-decoration: none;
+    color: white;
+
+}
+.names{
+    color: red;
+    text-decoration: none;
+}
+.names:hover{
+    color: red;
+    text-decoration: none;
+}
+.logo{
+    margin-top: 20px;
+    display: block;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.nav-item{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.navbar-nav{
+    margin-top: 60px;
+}
+.bg-home{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+}   
+.bg-home:hover{
+    color: white;
+    background: red;
+}
+/* .nav-link{
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
     color: black;
 }
-/*End The Page by footer*/
-footer{
-    margin-top: 50px;
-    background-color: black;
-    width: 100%;
-    height: 100px;
+.nav-link:hover{
+    color: white;
+    background: red;
+} */
+
+
+/*About section*/
+.about{
+    padding: 5% 15%;
+    text-align: justify;
+    text-align-last:center ;
 }
-footer h3{
+.set-btn{
+    padding: 5% 15%;
+}
+.back-about{
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.icon{
+    padding-top: 50px;
+    width: 5%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.icon:hover{
+    opacity: 1;
+}
+.footer{
+    padding: 0% 15%;
+    padding-top: 5%;
+}
+.by{
+    color: red;
+    cursor: pointer;
+    margin-right: 300px;
+    text-decoration: none;
+}
+.by:hover{
+    color: red;
+    text-decoration: none;
+}
+.nav-footer{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-item{
+    float: left;    
+}
+.footer-items{
+    float: left;    
+}
+.footer-link{
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    color: black;
+
+}
+.footer-link:hover{
+    color: red;
+    text-decoration: none;
+}
+
+/*Shop section*/
+.galery{
+    padding: 3% 15%;
+}
+.img-thumbnail{
+    height: 100px;
+    margin: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+.img-thumbnail:hover{
+    border: solid red;
+}
+.back{
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    margin-left: 30px;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+/*Store section*/
+
+.store{
+    padding: 2% 15%;
+}
+.figure-img{
+    height: 150px;
+    width: 300px;
+}
+.figure-caption{
+    font-family: 'Courier Prime', monospace;
+}
+.caption{
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    color: black;
+}
+.email:hover{
+    text-decoration: none;
+    color: red;
+}
+
+/*cart section*/
+.cart{
+    padding: 0 15%;
+    margin-top: 30px;
+}
+.size-container{
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.title-size{
+    color: black;
+}
+.sizes{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+
+.size{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: solid red 1px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.size.active{
+    background-color: red;
+    color: #fff;
+    transition: .5s;
+}
+
+/*Contact section*/
+.contact{
+    text-align: left;
+    padding: 2% 15%;
+}
+.contact, .btn, p{
+    margin-left: 20px;
+}
+.form-row{
+    margin: 10px;
+}
+.back-button{
+    text-decoration: none;
+    background: black;
+    color: white;
+    margin-left: 100px;
+}
+
+.cart-img{
+    height: 50px;
+    float: left;
+    border: solid 0.5px black;
+    opacity: .6;
+}
+.cart-img:hover{
+    opacity: 1;
+}
+.img-cart{
+    height: 300px;
+    width: 450px;
+    padding-bottom: 5%;
+}
+@media only screen and (max-width: 800px) {
+   #contact{
+       padding: 2% 5%;
+   }
+   .galery img{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+  }
     color: white;
    text-align: center;
    padding-top: 38px;
